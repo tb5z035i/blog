@@ -1,0 +1,41 @@
+baseURL = "https://example.github.io/"
+languageCode = "en-us"
+title = "My Blog"
+theme = "terminal"
+paginate = 5
+
+[params]
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+  themeColor = "green"
+  showLastUpdated = false
+  contentTypeName = "posts"
+
+  # Giscus comment system -- fill in after setup at https://giscus.app
+  [params.giscus]
+    repo = ""
+    repoId = ""
+    category = "General"
+    categoryId = ""
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "top"
+    theme = "preferred_color_scheme"
+    lang = "en"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "My Blog"
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts"
+      weight = 2
