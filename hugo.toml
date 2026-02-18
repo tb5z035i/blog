@@ -15,14 +15,14 @@ theme = "terminal"
 
   # Giscus comment system -- fill in after setup at https://giscus.app
   [params.giscus]
-    repo = ""
-    repoId = ""
-    category = "General"
-    categoryId = ""
+    repo = "tb5z035i/blog"
+    repoId = "R_kgDORSxh1A"
+    category = "Announcements"
+    categoryId = "DIC_kwDORSxh1M4C2smu"
     mapping = "pathname"
     reactionsEnabled = "1"
     emitMetadata = "0"
-    inputPosition = "top"
+    inputPosition = "bottom"
     theme = "preferred_color_scheme"
     lang = "en"
 
