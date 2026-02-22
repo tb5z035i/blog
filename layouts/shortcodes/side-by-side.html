@@ -1,0 +1,10 @@
+{{ $image := .Page.Resources.GetMatch (.Get "image") }}
+{{ if $image }}{{ $image = $image.Resize "1200x" }}{{ end }}
+<div>
+  {{ if $image -}}
+  <div style="float: right; max-width: 50vw; margin-left: 1.5rem; margin-bottom: 1rem;">
+    <img src="{{ $image.RelPermalink }}" alt="{{ .Get "alt" | default "" }}" style="margin-top: 0;">
+  </div>
+  {{- end }}
+  {{ .Inner | markdownify }}
+</div>

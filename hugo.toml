@@ -1,13 +1,13 @@
 baseURL = "https://tb5z035i.github.io/blog/"
 languageCode = "en-us"
-title = "My Blog"
+title = "tb5z035i's blog"
 theme = "terminal"
 [pagination]
   pagerSize = 5
 
 [params]
   showMenuItems = 2
-  fullWidthTheme = false
+  fullWidthTheme = true
   centerTheme = true
   themeColor = "green"
   showLastUpdated = false
@@ -26,10 +26,13 @@ theme = "terminal"
     theme = "transparent_dark"
     lang = "en"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [languages]
   [languages.en]
     languageName = "English"
-    title = "My Blog"
+    title = ""
 
     [[languages.en.menu.main]]
       name = "Home"
