@@ -1,6 +1,6 @@
-baseURL = "https://tb5z035i.github.io/blog/"
+baseURL = "https://tb5z035i.tech/blog/"
 languageCode = "en-us"
-title = "tb5z035i's blog"
+title = "Beiwen's blog"
 theme = "terminal"
 [pagination]
   pagerSize = 5
