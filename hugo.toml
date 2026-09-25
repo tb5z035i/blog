@@ -1,4 +1,4 @@
-baseURL = "https://tb5z035i.tech/blog/"
+baseURL = "https://tb5z035i.tech/"
 languageCode = "en-us"
 title = "Beiwen's blog"
 theme = "terminal"
